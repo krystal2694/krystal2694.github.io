@@ -5,11 +5,11 @@
 }
 
   .post {
-    border-radius: 20px;
+    border-radius: 15px;
     //border: 5px solid #474545;
     box-shadow: 0 4px 4px 4px #232323;
     margin: 3em 5em;
-    width: 16em;
+    width: 17em;
     height: 23em;
     display: flex;
     overflow: hidden;
@@ -21,7 +21,7 @@
       box-shadow: 0 4px 8px 8px #232323;
 
       .body_post {
-        height: 60%;
+        height: 59%;
       }
     }
 
@@ -40,7 +40,7 @@
 
     .body_post {
       width: 100%;
-      height: 59%;
+      height: 58%;
       background: #e7e7e7;
       position: absolute;
       bottom: 0;
@@ -62,19 +62,20 @@
 
         .title-dots {
           color: #ff7f7d;
+          font-size: .8em;
         }
 
         h1 {
           font-size: 20px;
           font-weight: bold;
-          opacity: 75%;
-          margin-bottom: 0.5em;
-          color: #101010;
+          opacity: 90%;
+          margin-bottom: 0.4em;
         }
 
         p {
           font-size: 14px;
           font-weight: normal;
+          font-family: Montserrat;
         }
 
         .container_infos {

@@ -18,7 +18,7 @@ function ProjectCard(props) {
                 <div className="body_post">
                     <div className="post_content">
 
-                        <h1><span className='title-dots'> • </span>{props.title} <span className='title-dots'> • </span></h1>
+                        <h1><span className='title-dots'>  </span>{props.title} <span className='title-dots'>  </span></h1>
 
                         <p>{props.description}</p>
 

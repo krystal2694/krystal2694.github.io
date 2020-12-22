@@ -1,6 +1,6 @@
 import './css/App.css';
 import React from 'react';
-import './css/index.css'
+import './css/index.scss'
 import Background from "./components/Background";
 import Typewriter from "typewriter-effect";
 
