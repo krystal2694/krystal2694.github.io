@@ -1,13 +1,172 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Georgia;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #363437;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#name {
+  font-family: Georgia;
+  font-size: 2.1em;
+  color: whitesmoke;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.projects-container{
+  animation: home 1.5s ease-in-out forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70em;
+  margin: auto;
+}
+
+#canvas {
+  z-index: -1;
+}
+
+#me {
+  animation: home 1.5s ease-in-out forwards;
+  margin-top: 2em;
+  height: 12em;
+  width: 12em;
+}
+
+.icon {
+  height: 3.5em;
+  width: auto;
+}
+
+#icon-container {
+  animation: home 2s ease-in-out forwards;
+  margin: 3.5em;
+}
+
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  line-height: 1.4;
+  margin-top: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+@keyframes home {
+  from { opacity: 0; transform: translate3d(0, -25px, 0) }
+  to { opacity: 1; transform: translate3d(0, 0, 0) }
+}
+
+
+
+nav {
+  animation: home 0.75s ease-in-out forwards;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 30em;
+  opacity: 0;
+  padding: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1em;
+  }
+}
+
+nav a {
+  color: white;
+  font-weight: 700;
+  margin: 0 2em;
+  letter-spacing: 0.08em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  nav a {
+    margin: 0 1em;
+  }
+}
+
+@keyframes navdot {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+nav a:before {
+  border-radius: 50%;
+  content: '';
+  background-color: #ff7f7d;
+  left: 0;
+  height: 10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-200%, -50%);
+  width: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  nav a:before {
+    bottom: 150%;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+nav a.active:before {
+  animation: navdot 0.25s ease-in-out forwards 0.25s;
+}
+
+.app {
+  padding: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 3em 2em 2em;
+  }
+}
+
+.content {
+  border-radius: 4px;
+  background-color: white;
+  color: #101010;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: left;
+}
+
+.content--inner {
+  /*padding: 3em;*/
+}
+
+@media screen and (max-width: 768px) {
+  .content--inner {
+    padding: 1em;
+  }
 }
