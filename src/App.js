@@ -1,6 +1,6 @@
-import './App.css';
+import './css/App.css';
 import React from 'react';
-import './index.css'
+import './css/index.css'
 import Background from "./components/Background";
 import Typewriter from "typewriter-effect";
 

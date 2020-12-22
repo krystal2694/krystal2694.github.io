@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import "../ProjectCard.scss"
-import Icon from '../components/Icon'
-import github from "../assets/github.png";
+import "../css/ProjectCard.scss"
 
 
 function ProjectCard(props) {
