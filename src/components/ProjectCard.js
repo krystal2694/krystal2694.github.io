@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import "../Card.scss"
+import "../ProjectCard.scss"
 import Icon from '../components/Icon'
 import github from "../assets/github.png";
 
 
-function Card(props) {
+function ProjectCard(props) {
     const technologies = props.technologies;
     const listTechnologies = technologies.map((tech) =>
         <li>{tech}</li>
@@ -42,4 +42,4 @@ function Card(props) {
     );
 }
 
-export default Card;
+export default ProjectCard;
