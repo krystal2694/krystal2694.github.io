@@ -37,8 +37,8 @@ class Credentials extends Component {
             <div className="view">
                 <div className="credentials-container">
                     <Card width={'25em'} title="Skills" content={skillsContent}/>
-                    <Card width={'25em'} title="Education" content={educationContent}/>
-                    <Card width={'56em'} title="Work Experience" content={experienceContent}/>
+                    <Card width={'28em'} title="Education" content={educationContent}/>
+                    <Card width={'35em'} title="Work Experience" content={experienceContent}/>
 
 
                     {/*<div className="content">*/}

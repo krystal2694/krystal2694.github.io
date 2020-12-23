@@ -86,12 +86,11 @@ nav {
     letter-spacing: 0.08em;
     position: relative;
     text-decoration: none;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     &:before {
       border-radius: 50%;
       content: '';
-      //background-color: #ff7f7d;
-      background-color: #70ABAF;
+      background-color: #ff7f7d;
       left: 0;
       height: 10px;
       opacity: 0;
