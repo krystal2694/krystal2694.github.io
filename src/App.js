@@ -4,7 +4,7 @@ import './css/index.scss'
 import Background from "./components/Background";
 import Typewriter from "typewriter-effect";
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Nav from './Nav'
 import Home from './views/Home'
 import Credentials from './views/Credentials'
@@ -13,7 +13,7 @@ import Projects from './views/Projects'
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
       <div className="App">
           <div style={{position: 'relative'}}>
               <div id="canvas" style={{position: 'fixed'}}>
@@ -49,7 +49,7 @@ function App() {
               )
           }}/>
       </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
