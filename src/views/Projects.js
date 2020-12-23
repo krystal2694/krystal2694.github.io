@@ -17,7 +17,7 @@ class Projects extends Component {
                                  image={Website}
                                  linkURL="https://github.com/krystal2694/UpLift"
                                  description="A personal website I created with React for practice after learning the
-                                 framework over the winter break."
+                                 library over the winter break."
                                  technologies={['React', 'JavaScript', 'HTML5', 'SCSS']}/>
                     <ProjectCard title="UpLift"
                                  image={UpLift}
