@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+@keyframes home {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -25px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes navdot {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #363437;
+}
+#name {
+  font-family: Georgia;
+  font-size: 2.1em;
+  color: whitesmoke;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-weight: normal;
+}
+.projects-container {
+  animation: home 1.5s ease-in-out forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70em;
+  margin: auto;
+  padding-bottom: 5em;
+}
+.credentials-container {
+  animation: home 1.5s ease-in-out forwards;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70em;
+  margin: auto;
+  padding-bottom: 5em;
+}
+#canvas {
+  z-index: -1;
+}
+#me {
+  animation: home 1.5s ease-in-out forwards;
+  margin-top: 2em;
+  height: 12em;
+  width: 12em;
+}
+.icon {
+  height: 3.5em;
+  width: auto;
+}
+#icon-container {
+  animation: home 2s ease-in-out forwards;
+  margin: 3.5em;
+}
+nav {
+  animation: home 0.75s ease-in-out forwards;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 30em;
+  opacity: 0;
+  padding: 3em;
+  a {
+    color: white;
+    font-weight: 700;
+    margin: 0 2em;
+    letter-spacing: 0.08em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:before {
+      border-radius: 50%;
+      content: '';
+      background-color: #ff7f7d;
+      left: 0;
+      height: 10px;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      transform: translate(-200%, -50%);
+      width: 10px;
+    }
+  }
+  a.active {
+    &:before {
+      animation: navdot 0.25s ease-in-out forwards 0.25s;
+    }
+  }
+}
+.app {
+  padding: 2em;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  nav {
+    padding: 1em;
+    a {
+      margin: 0 1em;
+      &:before {
+        bottom: 150%;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+  .app {
+    padding: 3em 2em 2em;
+  }
+  .content--inner {
+    padding: 1em;
+  }
+}
