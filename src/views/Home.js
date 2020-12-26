@@ -13,7 +13,7 @@ class Home extends Component {
                 <div id='icon-container'>
                     <Icon linkURL='https://www.linkedin.com/in/krystalwong263' imagePath={linkedIn}/>
                     <Icon linkURL='https://github.com/krystal2694' imagePath={github}/>
-                    <Icon linkURL='https://github.com/krystal2694' imagePath={Email}/>
+                    <Icon linkURL='mailto:krystal.w221@gmail.com' imagePath={Email}/>
                 </div>
             </div>
 

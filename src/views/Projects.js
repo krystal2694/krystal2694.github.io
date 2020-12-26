@@ -45,7 +45,7 @@ class Projects extends Component {
                                  technologies={['Python']}/>
                     <ProjectCard title="Zombie Hunter"
                                  image={Zombie}
-                                 linkURL="https://github.com/krystal2694/star_wars_sud"
+                                 linkURL="https://github.com/krystal2694/zombie_hunter"
                                  description="One of my very first projects; a simple zombie hunting game developed during my
                           first web development course."
                                  technologies={['JavaScript', 'HTML5', 'CSS3']}/>
