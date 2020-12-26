@@ -22,7 +22,7 @@ class Projects extends Component {
                     <ProjectCard title="UpLift"
                                  image={UpLift}
                                  linkURL="https://github.com/krystal2694/UpLift"
-                                 description="An App designed to improve mental health in the midst of the global
+                                 description="An app designed to improve mental health in the midst of the global
                                  pandemic through the delivery of uplifting content."
                                  technologies={['Java', 'Firebase', 'Android Studio']}/>
                     <ProjectCard title="Turtle Rescue"
