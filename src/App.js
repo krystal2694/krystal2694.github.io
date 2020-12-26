@@ -3,6 +3,7 @@ import React from 'react';
 import './css/index.scss'
 import Background from "./components/Background";
 import Typewriter from "typewriter-effect";
+import {Helmet} from "react-helmet";
 
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Nav from './Nav'
@@ -14,6 +15,9 @@ import Projects from './views/Projects'
 function App() {
   return (
       <HashRouter>
+          <Helmet>
+                  <title>Krystal Wong</title>
+          </Helmet>
       <div className="App">
           <div style={{position: 'relative'}}>
               <div id="canvas" style={{position: 'fixed'}}>

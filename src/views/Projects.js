@@ -15,7 +15,7 @@ class Projects extends Component {
                 <div className="projects-container">
                     <ProjectCard title="This Website"
                                  image={Website}
-                                 linkURL="https://github.com/krystal2694/UpLift"
+                                 linkURL="https://github.com/krystal2694/krystal2694.github.io"
                                  description="A personal website I created with React for practice after learning the
                                  library over the winter break."
                                  technologies={['React', 'JavaScript', 'HTML5', 'SCSS']}/>
