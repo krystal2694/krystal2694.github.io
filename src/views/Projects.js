@@ -6,6 +6,7 @@ import UpLift from '../assets/uplift.png'
 import Harvest from '../assets/harvest.png'
 import Zombie from '../assets/zombie.png'
 import Website from '../assets/website.png'
+import Quiz from '../assets/quiz_app.png'
 
 
 class Projects extends Component {
@@ -13,6 +14,11 @@ class Projects extends Component {
         return (
             <div className="view">
                 <div className="projects-container">
+                    <ProjectCard title="Quiz Application"
+                                 image={Quiz}
+                                 linkURL="http://krystalwong.azurewebsites.net/COMP4537/labs/databaseQuiz/index.html"
+                                 description="A 3-tier web application that allows the user to create and answer quiz questions."
+                                 technologies={['JavaScript', 'HTML5', 'CSS3', 'Node.js', 'MySQL', 'Boostrap']}/>
                     <ProjectCard title="This Website"
                                  image={Website}
                                  linkURL="https://github.com/krystal2694/krystal2694.github.io"

@@ -9,11 +9,11 @@ class Credentials extends Component {
             <h4>Languages</h4>
             <h5>English • Cantonese • Mandarin</h5>
             <h4>Programming</h4>
-            <h5>Python • Java • C</h5>
+            <h5>Python • Java • C • R</h5>
             <h4>Web</h4>
-            <h5>HTML • CSS/SCSS • JavaScript • React</h5>
+            <h5>HTML • CSS/SCSS • JavaScript • Node.js • React • Vue.js • Boostrap</h5>
             <h4>More</h4>
-            <h5>SQL • Firebase • Agile • Git</h5>
+            <h5>SQL • Google Firebase • Agile • Git</h5>
         </div>;
 
         const experienceContent = <div>
