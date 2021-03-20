@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.04bc8215.chunk.css",
-    "main.js": "/static/js/main.4ba803bc.chunk.js",
-    "main.js.map": "/static/js/main.4ba803bc.chunk.js.map",
+    "main.css": "/static/css/main.c40c17de.chunk.css",
+    "main.js": "/static/js/main.a30aceba.chunk.js",
+    "main.js.map": "/static/js/main.a30aceba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.933b826c.js",
     "runtime-main.js.map": "/static/js/runtime-main.933b826c.js.map",
     "static/js/2.5ef41c35.chunk.js": "/static/js/2.5ef41c35.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.738259bf.chunk.js": "/static/js/3.738259bf.chunk.js",
     "static/js/3.738259bf.chunk.js.map": "/static/js/3.738259bf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.04bc8215.chunk.css.map": "/static/css/main.04bc8215.chunk.css.map",
+    "static/css/main.c40c17de.chunk.css.map": "/static/css/main.c40c17de.chunk.css.map",
     "static/js/2.5ef41c35.chunk.js.LICENSE.txt": "/static/js/2.5ef41c35.chunk.js.LICENSE.txt",
     "static/media/email.536fcba2.png": "/static/media/email.536fcba2.png",
     "static/media/github.32db35cd.png": "/static/media/github.32db35cd.png",
     "static/media/harvest.26fd4cec.png": "/static/media/harvest.26fd4cec.png",
     "static/media/linkedin.89e3e924.png": "/static/media/linkedin.89e3e924.png",
     "static/media/me.8a942094.png": "/static/media/me.8a942094.png",
+    "static/media/quiz_app.d7dd51df.png": "/static/media/quiz_app.d7dd51df.png",
     "static/media/starwars.42027049.png": "/static/media/starwars.42027049.png",
     "static/media/turtle_rescue.674d6c1e.jpg": "/static/media/turtle_rescue.674d6c1e.jpg",
     "static/media/uplift.06a6ed28.png": "/static/media/uplift.06a6ed28.png",
@@ -26,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.933b826c.js",
     "static/js/2.5ef41c35.chunk.js",
-    "static/css/main.04bc8215.chunk.css",
-    "static/js/main.4ba803bc.chunk.js"
+    "static/css/main.c40c17de.chunk.css",
+    "static/js/main.a30aceba.chunk.js"
   ]
 }
