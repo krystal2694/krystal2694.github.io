@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c40c17de.chunk.css",
-    "main.js": "/static/js/main.a30aceba.chunk.js",
-    "main.js.map": "/static/js/main.a30aceba.chunk.js.map",
+    "main.js": "/static/js/main.b01486b7.chunk.js",
+    "main.js.map": "/static/js/main.b01486b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.933b826c.js",
     "runtime-main.js.map": "/static/js/runtime-main.933b826c.js.map",
     "static/js/2.5ef41c35.chunk.js": "/static/js/2.5ef41c35.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/github.32db35cd.png": "/static/media/github.32db35cd.png",
     "static/media/harvest.26fd4cec.png": "/static/media/harvest.26fd4cec.png",
     "static/media/linkedin.89e3e924.png": "/static/media/linkedin.89e3e924.png",
+    "static/media/listify.932f3e2b.png": "/static/media/listify.932f3e2b.png",
     "static/media/me.8a942094.png": "/static/media/me.8a942094.png",
     "static/media/quiz_app.d7dd51df.png": "/static/media/quiz_app.d7dd51df.png",
     "static/media/starwars.42027049.png": "/static/media/starwars.42027049.png",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.933b826c.js",
     "static/js/2.5ef41c35.chunk.js",
     "static/css/main.c40c17de.chunk.css",
-    "static/js/main.a30aceba.chunk.js"
+    "static/js/main.b01486b7.chunk.js"
   ]
 }
