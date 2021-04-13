@@ -7,6 +7,7 @@ import Harvest from '../assets/harvest.png'
 import Zombie from '../assets/zombie.png'
 import Website from '../assets/website.png'
 import Quiz from '../assets/quiz_app.png'
+import Listify from '../assets/listify.png'
 
 
 class Projects extends Component {
@@ -14,6 +15,11 @@ class Projects extends Component {
         return (
             <div className="view">
                 <div className="projects-container">
+                    <ProjectCard title="Listify"
+                                 image={Listify}
+                                 linkURL="https://krystalwong.azurewebsites.net/COMP4537/termproject"
+                                 description="Create and manage all your lists in a single place, with theme customization options."
+                                 technologies={['JavaScript', 'HTML5', 'CSS3', 'Express', 'Node.js', 'MySQL', 'Boostrap']}/>
                     <ProjectCard title="Quiz Application"
                                  image={Quiz}
                                  linkURL="http://krystalwong.azurewebsites.net/COMP4537/labs/databaseQuiz/index.html"

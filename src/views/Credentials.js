@@ -13,7 +13,7 @@ class Credentials extends Component {
             <h4>Web</h4>
             <h5>HTML • CSS/SCSS • JavaScript • Node.js • React • Vue.js • Boostrap</h5>
             <h4>More</h4>
-            <h5>SQL • Google Firebase • Agile • Git</h5>
+            <h5>SQL • Google Firebase • Dialogflow • Agile • Git</h5>
         </div>;
 
         const experienceContent = <div>
